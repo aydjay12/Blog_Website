@@ -1,0 +1,17 @@
+.posts {
+  flex: 7;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+  .posts {
+    margin: 5px;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+  }
+}
